@@ -1,0 +1,50 @@
+body {
+    background: #ecf0f1;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#life section.year {
+    color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+#life .event b {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+#life .event .time {
+    border: 4px solid #000;
+}
+
+#life .event.tag-school .time {
+    border: 4px solid #1abc9c;
+}
+
+#life .event.tag-job .time {
+    border: 4px solid #3498db;
+}
+
+#life .event.tag-love .time {
+    border: 4px solid #960d20;
+}
+
+#life .event.tag-award .time {
+    border: 4px solid #E0D152;
+}
+
+#life .event a {
+    font-weight: 550;
+}
+
+#life .event a:hover {
+    color: #960d20;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
